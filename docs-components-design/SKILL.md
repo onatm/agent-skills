@@ -55,6 +55,7 @@ Maintain technical design docs for implementation units. Put contracts, state, r
 - Prefer concise summaries of contracts, schemas, and state over long pasted definitions
 - If one component supports multiple features, describe the reusable implementation capability rather than a single feature narrative
 - Make trade-offs, failure modes, and ownership explicit
+- The Technical Design sub-sections (Interfaces, Data Model, Runtime, Security) are a baseline — add domain-specific sections (Processing Flow, Algorithm, Examples, Configuration) at the same level when they clarify the design better than generic sub-sections would
 
 ## Quality Checklist
 

@@ -10,7 +10,7 @@
 
 A brief summary of what the feature does and why it matters to its audience.
 
-## User Problem
+## Context & Problem
 
 **Background:** What user or business problem is this feature addressing?
 
@@ -21,17 +21,26 @@ A brief summary of what the feature does and why it matters to its audience.
 - Primary objective 2
 - Primary objective 3
 
-## Non-Goals
+## Non-Goals (Optional)
 
 - [What this feature does not try to solve]
 - [What remains handled elsewhere]
 
-## Audience / Actors
+## Audience / Actors (Optional)
 
 - [Primary user or actor]
 - [Secondary user or actor]
 
 ## Primary Flows
+
+<!-- For simple features, a flat "User-Facing Behavior" bullet list is a valid alternative to numbered flows:
+
+## User-Facing Behavior
+
+- [What the user sees or can do]
+- [What happens next]
+- [What the outcome is]
+-->
 
 ### Flow 1: [Name]
 1. [User action or entry point]
@@ -54,6 +63,11 @@ A brief summary of what the feature does and why it matters to its audience.
 - [How this changes the user experience]
 - [How success should feel or be measured]
 
+## User Experience Notes (Optional)
+
+- [UI copy, loading states, empty states, or UX-specific behavior]
+- [How the UI communicates constraints or errors to the user]
+
 ## Dependencies & Linked Design Docs
 
 - [Related component design doc]
@@ -62,7 +76,7 @@ A brief summary of what the feature does and why it matters to its audience.
 
 If technical design is needed, link the relevant `docs/designs/` doc instead of embedding implementation details here.
 
-## Open Questions
+## Open Questions (Optional)
 
 - [ ] Question 1
 - [ ] Question 2

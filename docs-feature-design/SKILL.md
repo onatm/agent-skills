@@ -35,6 +35,8 @@ Maintain docs that explain what a feature does and why it matters, not how it is
 - Primary actors and entry points
 - Main flows, states, and business rules
 - User-visible edge cases, constraints, and outcomes
+- Non-Goals, Audience / Actors, and Open Questions are optional — omit them when they don't add value for the feature
+- "User-Facing Behavior" (flat bullet list) is a valid simpler alternative to formal numbered Primary Flows for straightforward features
 
 3. Move technical detail out.
 - If the draft starts describing APIs, schema, queues, retries, deployment, or internal implementation, link or create the relevant component design doc instead
