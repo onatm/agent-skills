@@ -1,0 +1,4 @@
+interface:
+  display_name: "Docs Architecture"
+  short_description: "Maintain architecture and topology docs"
+  default_prompt: "Use $docs-architecture to update system or domain architecture docs so topology, shared patterns, and cross-component flows match the current system."
