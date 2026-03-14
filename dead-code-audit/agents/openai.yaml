@@ -1,0 +1,4 @@
+interface:
+  display_name: "Dead Code Audit"
+  short_description: "Audit repos for dead code and cleanup risk"
+  default_prompt: "Use $dead-code-audit to scan this repository for dead code and produce a triaged cleanup report."
