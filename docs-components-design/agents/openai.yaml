@@ -1,0 +1,4 @@
+interface:
+  display_name: "Docs Components Design"
+  short_description: "Maintain technical design docs"
+  default_prompt: "Use $docs-components-design to draft or update a service or component design doc with the relevant technical design, contracts, and operational details."
