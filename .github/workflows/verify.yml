@@ -1,0 +1,30 @@
+name: Verify
+
+on:
+  pull_request:
+  push:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Verify repository is installable by the skills CLI
+        shell: bash
+        run: |
+          set -euo pipefail
+          output_file="$(mktemp)"
+          npx --yes skills add . --list | tee "$output_file"
+          grep -Fq "docs-architecture" "$output_file"
+          grep -Fq "docs-components-design" "$output_file"
+          grep -Fq "docs-feature-design" "$output_file"
