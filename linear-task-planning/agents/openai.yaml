@@ -1,0 +1,4 @@
+interface:
+  display_name: "Linear Task Planning"
+  short_description: "Plan implementation work as Linear issues"
+  default_prompt: "Use $linear-task-planning to turn an approved engineering plan into reviewed, self-contained Linear issues."
