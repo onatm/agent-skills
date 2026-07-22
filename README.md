@@ -8,6 +8,7 @@ Skills for agents that support the official [`skills`](https://skills.sh/) CLI.
 - `docs-architecture`: Maintain system and domain architecture docs such as `docs/ARCHITECTURE.md`, `web-architecture.md`, or `api-architecture.md`.
 - `docs-components-design`: Maintain technical design docs for services, components, workers, modules, and APIs.
 - `docs-feature-design`: Maintain feature docs that explain user-visible behavior, goals, flows, and business rules without implementation detail.
+- `docs-product-requirements`: Create and maintain evidence-based Product Requirements Documents with explicit outcomes, scope, assumptions, and validation.
 - `linear-task-planning`: Turn approved engineering plans into reviewed, self-contained Linear issues.
 
 ## Installation

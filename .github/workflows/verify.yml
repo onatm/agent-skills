@@ -28,4 +28,5 @@ jobs:
           grep -Fq "docs-architecture" "$output_file"
           grep -Fq "docs-components-design" "$output_file"
           grep -Fq "docs-feature-design" "$output_file"
+          grep -Fq "docs-product-requirements" "$output_file"
           grep -Fq "linear-task-planning" "$output_file"

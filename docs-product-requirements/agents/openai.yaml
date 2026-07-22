@@ -1,0 +1,4 @@
+interface:
+  display_name: "Docs Product Requirements"
+  short_description: "Create evidence-based product requirements"
+  default_prompt: "Use $docs-product-requirements to research, draft, review, or update a PRD with explicit evidence, outcomes, scope, assumptions, and validation while keeping technical design separate."
