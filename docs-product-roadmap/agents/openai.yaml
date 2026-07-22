@@ -1,0 +1,4 @@
+interface:
+  display_name: "Docs Product Roadmap"
+  short_description: "Create outcome-driven product roadmaps"
+  default_prompt: "Use $docs-product-roadmap to research, draft, review, or update an outcome-driven roadmap with transparent evidence, confidence, priorities, dependencies, and change criteria."

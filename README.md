@@ -9,6 +9,7 @@ Skills for agents that support the official [`skills`](https://skills.sh/) CLI.
 - `docs-components-design`: Maintain technical design docs for services, components, workers, modules, and APIs.
 - `docs-feature-design`: Maintain feature docs that explain user-visible behavior, goals, flows, and business rules without implementation detail.
 - `docs-product-requirements`: Create and maintain evidence-based Product Requirements Documents with explicit outcomes, scope, assumptions, and validation.
+- `docs-product-roadmap`: Create and maintain outcome-driven product roadmaps with transparent priorities, confidence, dependencies, and change criteria.
 - `linear-task-planning`: Turn approved engineering plans into reviewed, self-contained Linear issues.
 
 ## Installation
